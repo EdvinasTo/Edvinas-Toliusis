@@ -8,7 +8,7 @@ function Sidebar() {
 
 	return (
 		<motion.aside
-			className='fixed left-0 top-0 z-50 flex h-20 w-full items-center justify-between border-b border-white/10 bg-[#16171d] px-4 text-white sm:px-6 lg:h-screen lg:w-64 lg:flex-col lg:justify-between lg:border-b-0 lg:border-r lg:px-6 lg:py-8 lg:items-center'
+			className='fixed left-0 top-0 z-50 flex h-20 w-full items-center justify-between border-b border-white/10 bg-[#16171d] px-4 sm:px-6 lg:h-screen lg:w-64 lg:flex-col lg:justify-between lg:border-b-0 lg:border-r lg:px-6 lg:py-8 lg:items-center'
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{ duration: 0.5, ease: 'easeOut' }}
